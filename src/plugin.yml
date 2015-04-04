@@ -1,0 +1,25 @@
+name: vPrisonSigns
+author: TheFBI
+version: 1.0
+main: me.thefbi.signs.Signs
+description: Prison signs for selling items.
+commands:
+  vprison:
+  
+permssions:
+  venom.prison.set:
+    description: Set a sell sign
+    default: OP
+  venom.prison.getprices:
+    description: Return all prices
+    default: OP
+  venom.prison.reload:
+    description: Reload the plugin
+    default: OP
+  venom.prison.getpermission:
+    description: Get permission to create signs
+    default: OP
+  venom.prison.create:
+    description: Create signs
+    default: OP  
+    
